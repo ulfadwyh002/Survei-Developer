@@ -1,1 +1,1 @@
-![Word Cloud](Dashboard.jpg)
+![Dashboard](Dashboard.png)
