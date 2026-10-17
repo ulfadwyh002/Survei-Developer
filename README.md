@@ -1,14 +1,16 @@
 ![Dashboard](Dashboard.png)
 
-# Dashboard Survei Developer (Power BI)
+# Dashboard Survei Developer: Analisis Teknologi yang Dipakai dan Diminati
 
-Proyek ini bertujuan untuk menganalisis tren penggunaan teknologi dan karakteristik pengembang berdasarkan data survei developer. Analisis berfokus pada bahasa pemrograman, teknologi basis data, platform yang digunakan, bidang pekerjaan, dan status pekerjaan responden.
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Measures-118DFF?style=flat)
+![Data Cleaning](https://img.shields.io/badge/Data%20Cleaning-Duplicate%20%26%20Missing%20Value-4B8BBE?style=flat)
+![Data Modeling](https://img.shields.io/badge/Data%20Modeling-Relational%20Model-12239E?style=flat)
+![Dataset](https://img.shields.io/badge/Data%20Source-Developer%20Survey-F48024?style=flat)
 
-Hasil analisis disajikan dalam dashboard interaktif menggunakan Power BI untuk membantu memahami teknologi yang populer, perbedaan antara teknologi yang digunakan dan dikagumi, serta distribusi responden berdasarkan karakteristik pekerjaan mereka.
+Proyek ini bertujuan untuk menganalisis tren penggunaan teknologi dan karakteristik pengembang berdasarkan data survei developer. Analisis berfokus pada bahasa pemrograman, teknologi basis data, platform yang digunakan, bidang pekerjaan, dan status pekerjaan responden. Hasil analisis disajikan dalam dashboard interaktif menggunakan Power BI untuk membantu memahami teknologi yang populer, perbedaan antara teknologi yang digunakan dan dikagumi, serta distribusi responden berdasarkan karakteristik pekerjaan mereka.
 
 Proyek ini dibuat sebagai proyek capstone analisis data dan business intelligence memakai Power BI, DAX, dan pemodelan data berelasi.
-
----
 
 ## 1. Tujuan
 
