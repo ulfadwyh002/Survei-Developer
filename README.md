@@ -2,7 +2,9 @@
 
 # Dashboard Survei Developer (Power BI)
 
-Dashboard interaktif untuk menjawab tiga pertanyaan tentang para developer yang menjadi responden survei: **teknologi apa yang mereka pakai, teknologi apa yang ingin mereka pelajari atau kagumi, dan seperti apa latar belakang pekerjaan mereka.**
+Proyek ini bertujuan untuk menganalisis tren penggunaan teknologi dan karakteristik pengembang berdasarkan data survei developer. Analisis berfokus pada bahasa pemrograman, teknologi basis data, platform yang digunakan, bidang pekerjaan, dan status pekerjaan responden.
+
+Hasil analisis disajikan dalam dashboard interaktif menggunakan Power BI untuk membantu memahami teknologi yang populer, perbedaan antara teknologi yang digunakan dan dikagumi, serta distribusi responden berdasarkan karakteristik pekerjaan mereka.
 
 Proyek ini dibuat sebagai proyek capstone analisis data dan business intelligence memakai Power BI, DAX, dan pemodelan data berelasi.
 
