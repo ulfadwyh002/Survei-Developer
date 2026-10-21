@@ -108,20 +108,6 @@ Hal penting dalam rumus-rumus ini:
 - `CONCATENATEX` dipakai (bukan `MAXX`) agar kalau ada dua yang imbang, keduanya tampil.
 - Visual KPI hanya menerima angka, sedangkan nama terpopuler berupa teks, sehingga memakai visual **Card**.
 
-## 5. Isi Dashboard
-
-| Bagian | Visual | Field |
-|---|---|---|
-| Ringkasan | 4 Card | `Responden`, `Bahasa Terpopuler`, `Basis Data Terpopuler`, `Platform Terpopuler` |
-| Latar belakang | Bar chart | Responden per bidang pekerjaan |
-| Latar belakang | Pie / donut | Responden per status kerja |
-| Bahasa | Clustered bar | Y: `Dim_Bahasa[Bahasa]`; X: `% Bahasa Dipakai`, `% Bahasa Dikagumi`; filter Top 10 |
-| Basis data | Clustered bar | Y: `Dim_Database[Database]`; X: `% Database Dipakai`, `% Database Ingin Dipelajari`; filter Top 10 |
-| Platform | Bar chart | Platform cloud yang dipakai |
-| Filter | Slicer | `status` dan `pekerjaan` dari `Table_Employment` |
-
-Semua visual saling menyaring. Memilih satu status kerja atau bidang pekerjaan mengubah seluruh halaman.
-
 ## 6. Temuan Awal
 
 Dari dashboard (tanpa filter):
@@ -130,7 +116,20 @@ Dari dashboard (tanpa filter):
 - **Platform terpopuler:** Amazon Web Services (AWS)
 - **Total responden:** 65.436, dengan sebagian besar bekerja di bidang *Software Development* (sekitar 39 ribu) dan berstatus karyawan penuh waktu (sekitar 39 ribu).
 
-Selisih antara kolom "dipakai" dan "dikagumi" menunjukkan teknologi yang minatnya lebih tinggi daripada penggunaannya saat ini, dan sebaliknya. Interpretasi lebih lanjut sebaiknya dilakukan setelah memilih filter tertentu.
+## 7. Insight dan Rekomendasi
+
+| Tema | Insight | Rekomendasi |
+| --- | --- | --- |
+| Profil responden | Software Development mendominasi (±39K dari 65.436K) dan karyawan penuh waktu mencapai 60,16%. Keamanan dan Developer Relations sangat kecil. | Baca hasil sebagai cerminan developer profesional. Untuk segmen kecil, tambah sampel atau buat survei khusus. |
+| Bahasa terpopuler | JavaScript paling banyak dipakai. Python dan SQL paling diminati untuk dipelajari. | Jadikan JavaScript, Python, dan SQL inti kurikulum dan kriteria perekrutan. |
+| Retensi bahasa | Retensi 85,15% menunjukkan sebagian besar developer setia pada bahasa yang dipakai. | Prioritaskan bahasa berretensi tinggi untuk investasi jangka panjang dan pantau yang retensinya rendah. |
+| Dikagumi vs dipakai | Beberapa bahasa (misalnya Python) punya minat belajar tinggi dibanding pemakaian. | Siapkan materi pelatihan lebih awal untuk bahasa dengan selisih besar. |
+| Basis data | PostgreSQL unggul jauh (0,37) dibanding SQLite (0,21) dan MySQL (0,19). Supabase dan DynamoDB menunjukkan minat yang tumbuh. | Jadikan PostgreSQL basis data utama untuk pelatihan dan produk. Pantau Supabase dan DynamoDB. |
+| Status pekerjaan | Python dominan di pelajar (0,50) dan Riset & Sains (0,46), tetapi lebih rendah di Software Development (0,36). TypeScript lebih tinggi di industri (0,41) daripada pelajar (0,23). | Perkenalkan TypeScript di kurikulum pelajar untuk menutup kesenjangan pendidikan dan industri. |
+| Kualitas data | Total donut chart (64.89K) berbeda dengan jumlah responden (65.436K), dan kolom pertama tabel terpotong. | Periksa data kosong/duplikat dan lebarkan kolom tabel. |
+
+
+
 
 
 
